@@ -1,0 +1,89 @@
+
+/*****************기본셋팅*****************/
+*{padding:0; margin:0; list-style:none; text-decoration:none;}
+html,body{width:100%;; min-height:100%;}
+
+
+/*****************공통클래스*****************/
+.on a{color:#ffcc00 !important}
+.inner{width:1200px; margin:0 auto;}
+#content div{width:100%; height:1080px; box-sizing:border-box; padding-top:180px; box-sizing:border-box;}
+
+/*****************menu*****************/
+#menu{width:100%; height:100px; line-height:100px; background:#fff; position:fixed; left:0; top:0; z-index:9999}
+#menu h1{position:absolute;top:10%;; left:10%;}
+#menu ul{text-align:center;padding-left:200px;}
+#menu ul li{display:inline-block; width:13%; }
+#menu ul li a{display:block; font-size:20px; font-weight:bold; color:#222;}
+h2 span{color:#ffc600; font-size:42px; line-height:180%;}
+
+
+
+
+
+
+/*****************section1*****************/
+#section1{background:url(image/main/new/vis.jpg) no-repeat; background-size:cover; text-align:center;}
+#section1 h2{font-size:72px; color:#fff; padding-top:200px; text-shadow:5px 5px 5px #222;}
+/*#section1 h2 span{display:block; font-size:58px;}*/
+
+
+
+/*****************section2*****************/
+#section2{background:url(image/main/new/section1.jpg) no-repeat;; background-size:cover; text-align:center;}
+#section2 h2{color:#fff; letter-spacing:1px; font-size:36px;}
+/*
+#section2 h2 span {color:yellow; letter-spacing:1px; font-size:26px;}
+#section2 h2 span{padding:0 10px}
+*/
+#section2 p{font-size:24px; line-height:180%; color:#fff; padding:70px 0;}
+#section2 ul{text-align:center;}
+#section2 ul li{display:inline-block; }
+#section2 ul li:nth-child(2){margin:0 100px; }
+
+
+
+/*****************section3*****************/
+#section3{background:url(image/main/new/section2.jpg) no-repeat; background-size:cover; text-align:center; color:#fff;}
+/*#section3 h2{font-size:40px; padding:100px 0 20px 0}*/
+/*#section3 p{font-size:30px; padding-bottom:70px;}*/
+#section3 h2{font-size:36px;}
+#section3 h2 span{color:#ffc600; font-size:42px; line-height:180%;}
+
+/*****************section4*****************/
+#section4{background:url(image/main/new/section3.jpg) no-repeat; background-size:cover; text-align:center; color:#fff; }
+#section4 h2{font-size:36px;}
+#section4 h2 span{color:#ffc600; font-size:42px; line-height:180%;}
+#section4 > p{font-size:18px; padding:40px 0; line-height:160%;}
+#section4 ul{text-align:center; font-size:0;}
+#section4 ul li{color:#222; text-align:left; display:inline-block;  width:400px; margin:0 20px; background:#fff; border:1px solid #fff;}
+#section4 ul li span {display:block;}
+#section4 ul li span img{width:100%;}
+#section4 ul li strong{padding:30px 0 10px 20px;display:block;font-size:24px; color:#222; }
+#section4 ul li p{color:#222; font-size:15px; padding-left:20px;  line-height:160%;}
+#section4 ul li a{display:inline-block; font-size:18px; color:#222; padding:25px 0 25px 20px; font-weight:bold;}
+
+
+/*****************section5*****************/
+#section5{background:url(image/main/new/section4.jpg) no-repeat; background-size:cover; text-align:center; color:#fff; }
+#section5 h2{font-size:36px;}
+#section5 ul{text-align:center;font-size:0; padding:130px 0;}
+#section5 ul li{width:30%; display:inline-block; height:400px; position:relative; transition:all 0.5s; overflow:hidden; z-index:1}
+#section5 ul li:hover{transform:scale(1.1,1.1); overflow:hidden;}
+#section5 ul li:hover p{color:#ffc600; font-weight:bold}
+#section5 ul li:nth-child(1){background:url(image/main/new/section4_box.jpg) no-repeat; background-size:cover; }
+#section5 ul li:nth-child(2){background:url(image/main/new/section4_box2.jpg) no-repeat; background-size:cover; margin:0 5%; box-sizing:border-box; bottom:30px}
+#section5 ul li:nth-child(3){background:url(image/main/new/section4_box3.jpg) no-repeat; background-size:cover;}
+#section5 ul li a{display:block;}
+#section5 ul li p{font-size:22px; color:#fff; position:absolute; left:20px; bottom:20px;}
+#section5 > p{font-size:18px; color:#fff; line-height:150%; }
+
+
+/*****************section6*****************/
+#section6{background:url(image/main/new/section6.jpg) no-repeat; background-size:cover; text-align:center; color:#fff; display:table;}
+#section6 h2{font-size:50px; padding-top:200px; text-shadow:2px 2px 2px #000;}
+#section6 h2 span{font-size:64px; color:#ffc600}
+#section6 a{display:block; margin:30px auto;width:220px; height:56px; line-height:56px; color:#fff;
+background:rgba(0,0,0,0.3) url(image/main/arrow.png) no-repeat 90% 50%;  text-align:left; padding-left:20px; border:1px solid #fff; box-sizing:border-box; font-size:22px; font-weight:bold; }
+
+.top1{width:60px; height:60px; background:#000; color:#fff; position:fixed; right:5%; bottom:5%; border:0; z-index:99999}
