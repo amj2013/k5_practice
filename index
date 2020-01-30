@@ -1,0 +1,196 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+ <head>
+  <title> New Document </title>
+  <meta name="Generator" content="EditPlus">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+
+ </head>
+
+ <body>
+
+
+
+
+	<div id="menu">
+		<h1><a href="#"><img src="image/main/new/logo.png"></a></h1>
+		<ul>
+			<li><a href="#section1">about</a></li>
+			<li><a href="#section2">5-DOOR HATCH </a></li>
+			<li><a href="#section3"> MINI PR</a></li>
+			<li><a href="#section4">MINI 60 </a></li>
+			<li><a href="#section5">make it yours</a></li>
+			<li><a href="#section6">IN DETAIL</a></li>
+		</ul>
+	</div>
+	
+	<div id="content">
+		<div id="section1">
+			<h2>SIMILAR. FAMILIAR. BUT DIFFERENT.<br><span>MINI 5 DOOR</span></h2>
+		</div>
+
+		<div id="section2">
+			<h2>독창적인 아이콘을 현 시점에서<span><img src="image/main/sub2_txt.png"></span>했습니다.</h2>
+			<p>이 든든한 MINI 5 DOOR는 MINI만의 독특한 이미지를 유지하면서 <br>더 많은 도어, 헤드룸, 레그룸을 제공하며, 전 세계 도시의 <br>도로의 이미지 변화를 주도하고 있습니다. <br>MINI의 특징인 고 카트 필링을 유지하면서도 더 많은 장점을 가지고 있습니다.</p>
+				<ul>
+					<li><img src="image/main/section1_box.png"></li>
+					<li><img src="image/main/section1_box2.png"></li>
+					<li><img src="image/main/section1_box3.png"></li>
+				</ul>
+	
+		</div>
+		<div id="section3">
+			<h2>SIMILAR. FAMILAR.<br>BUT DIFFERENT.</h2>
+			<p>5, 4, 3, 2, 1. MINI 5 DOOR를 만나보세요.</p>
+			<a href="#"><img src="image/main/play.png"></a>
+		</div>
+		<div id="section4">
+			<h2>MINI <span>60 YEARS</span> EDITION.<br>ELEBRATING SIX DECADES OF TIMELESSNESS.</h2>
+			<p>MINI는 창조적인 공간 활용, 개성 있는 스타일 그리고 스포티한 핸들링의 가치를 이어갑니다.<br>60년 전, 알렉 이시고니스(Alec Issigonis)는 젊고, 신선하면서도 세월의 흐름을 타지 않는 스타일의 아이콘을 만들어냈습니다. <br>바로 MINI입니다. MINI는 시대정신을 잘 담아냈을 뿐만 아니라, <br>도심에서의 이동이라는 전 세계 보편적인 문제에 대해서도 흥미로운 해답을 제시했습니다. <br>창조적인 공간활용, 개성 있는 스타일 그리고 스포티한 핸들링이 그 해답이었습니다. 오늘날에 이르러서도 MINI의 가치는 변하지 않았습니다. <br>60주년을 기념하여 MINI에서 선보이는 한정판 MINI 60 YEARS EDITION을 지금 만나보세요!
+			</p>
+			<ul>
+				<li>
+					<span><img src="image/main/section3_box.png"></span>
+					<strong>DOOR ENTRY STRIPS.</strong>
+
+					<p>60주년 기념 로고가 입혀진 앞 좌석 도어 엔트리 스트<br>라이프와 함께 MINI 60 YEARS EDITION에 탑승하는 <br>것은,그것 자체가 특별한 경험이 됩니다.</p>
+
+					<a href="#">READ MORE</a>
+				</li>
+				<li>
+					<span><img src="image/main/section3_box2.png"></span>
+					<strong>MINI YOURS LEATHER SEAT</strong>
+
+					<p>다크 마툰 컬러의 MINI Yours 가죽 시트는 영국 최고의<br>장인 정신을 살리는 의미에서 굵은  마감과 함께 파이핑<br>(Piping)을 가했습니다.</p>
+
+					<a href="#">READ MORE</a>
+				</li>
+			</ul>
+		</div>
+		<div id="section5">
+			<h2>MAKE IT YOURS</h2>
+			<ul class="inner">
+				<li><a href="#"><p>루프와 미러캡</p></a></li>
+				<li><a href="#"><p>보닛 스트라이프</p></a></li>
+				<li><a href="#"><p>휠</p></a></li>
+			</ul>
+			<p>위 기능의 루프, 미러캡 색상, 보닛스트라이프, 휠 등의 조합은 소비자의 이해를 돕기a 위한 것이며, 실제 판매 제품과는 차이가 있습니다.<br>정확한 판매 사양은 MINI 공식 딜러 전시장으로, 장착 가능 부품에 대한 자세한 내용은 가까운 MINI 공식 딜러 서비스센터로 문의 부탁 드립니다.</p>
+		</div>
+		<div id="section6">
+			<h2>독창적인 아이콘 <span>5 DOOR</span><br>MINI를 시승해보세요</h2>
+			<a href="#">신청하기</a>
+		</div>
+	</div>
+	<button class="top1">top</button>
+	
+	<script>
+		/* AMJ */
+		/*
+		$(function(){
+			var $menu = $("#menu ul li");
+			var $content = $("#content > div");
+			var idx = $(this).index();
+			var section = $content.eq(idx); 
+			var sectionHe = section.offset().top;
+
+			$('.top1').hide();
+			
+			$menu.click(function(e)
+			{
+				e.preventDefault();
+				$menu.removeClass("on");
+				$(this).addClass("on");
+
+
+
+			}); 
+			$('body,html').animate({
+				scrollTop:sectionHe;
+			}); 
+			$(window).scroll(function(){
+				$content.each(function(){
+					if( $(this).offset().top <= $(window).scrollTop() ) 
+					{
+						
+						var idx_scroll = $(this).index();
+						$menu.removeClass("on");
+						$menu.eq(idx_scroll).addClass("on");
+					};
+				});
+			});
+
+		
+		});
+	*/
+
+	var $menu = $("#menu ul li"), 
+		$content = $("#content div"),
+		$top =$(".top1");
+
+		$top.hide();//7. top 처음엔 안보이고 스크롤 내릴수록 보이게
+/* 메뉴 클릭했을 때 */
+		$menu.click(function(e){
+			//1. 이벤트 중단 a기능 억제
+			e.preventDefault(); 
+			//2. 순번을 구함 index(); 
+			var idx = $(this).index();
+		//console.log(idx);
+			//3. 메뉴의 순번을 구해서 컨텐츠랑 연결
+			var section = $content.eq(idx);
+			//console.log(section); // 메뉴 n번이 컨텐츠 n번으로
+			//4. section인 컨텐츠 높이값(top위치) 구하기
+			var conHeight = section.offset().top;
+			//console.log(conHeight);
+			//5. 움직임 적용
+			// scrollTop이라는 속성값이 conHeight만큼 움직이도록
+			$("body,html").animate({scrollTop : conHeight });
+
+			//6. 클릭할 때 마다 addclass적용하여 옷입히기 그리고 스크롤에 반응해서 스크롤 움직일때마다
+			$(window).scroll(function(){
+				//6-1. 컨텐츠를 찾고, 기능을 주기
+				$content.each(function(){
+					//6-2.만약에 그게 자기 자신이라면, 윈도우의 스크롤 Top보다 작거나 같았을때 기능을 주겠다 . 윈도우는 항상 스크롤 위치.
+					if($(this).offset().top <= $(window).scrollTop() )	
+					{
+						//6-3. scrollidx ( 윈도우의 스크롤 순번을 갖구와서) 만약 자기 자신이라면
+						
+						var scrollidx = $(this).index();
+						//6-4.  메뉴에 있는 on클래스 처음엔 제거하고 나중에 더하기
+						$menu.removeClass("on");
+						$menu.eq(scrollidx).addClass("on");
+					}
+					//7. top 처음엔 안보이고 스크롤 내릴수록 보이게
+
+				
+				});
+			});
+
+		});
+	/* top버튼 스크롤과 버튼을 클릭했을 때 */
+		/* 1. 스크롤 했을 때 top버튼 나타나기, 사라지기 */
+		$(window).scroll(function(){
+		
+			if($(window).scrollTop() > 400) // 1. 조금이라도 내리면에 대한 조건식 
+			{
+				$top.fadeIn("fast");
+			}else {
+				$top.fadeOut("slow");
+			}
+		});
+
+		/* 2. top 버튼 클릭했을 때 맨 위로 올라가라 */
+		$top.click(function(){
+			//body,html기준으로
+			$("body,html").animate({ scrollTop : "0"});
+		
+		});
+		
+
+	</script>
+ </body>
+</html>
